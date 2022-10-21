@@ -1,0 +1,12 @@
+<script>
+
+    var calculaIMC = function(altura,peso) {
+        var imc = peso / (altura *altura);
+        return imc;
+    };
+    var peso = 75;
+    var altura = 1.72;
+    var imc = calculaIMC(altura,peso);
+    document.write("Meu imc é"+ imc);
+
+</script>
